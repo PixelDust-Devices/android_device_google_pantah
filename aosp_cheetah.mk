@@ -20,6 +20,7 @@ USE_SWIFTSHADER := true
 BOARD_USES_SWIFTSHADER := true
 
 $(call inherit-product, device/google/gs201/aosp_common.mk)
+$(call inherit-product, device/google/pantah/device-custom.mk)
 $(call inherit-product, device/google/pantah/device-vendor.mk)
 $(call inherit-product, device/google/pantah/device-cheetah.mk)
 
