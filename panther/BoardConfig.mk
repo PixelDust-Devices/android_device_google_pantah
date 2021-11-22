@@ -45,3 +45,5 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 -include device/google/common/etm/BoardUserdebugModules.mk
 endif
 endif
+
+include device/google/pantah/panther/BoardConfig-custom.mk
