@@ -20,6 +20,7 @@ USE_SWIFTSHADER := true
 BOARD_USES_SWIFTSHADER := true
 
 $(call inherit-product, device/google/gs201/aosp_common.mk)
+$(call inherit-product, device/google/pantah/device-vendor.mk)
 $(call inherit-product, device/google/pantah/device-panther.mk)
 
 PRODUCT_NAME := aosp_panther
@@ -32,3 +33,5 @@ DEVICE_MANIFEST_FILE := \
 	device/google/pantah/manifest.xml
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
+
+$(call inherit-product, vendor/google/panther/panther-vendor.mk)
