@@ -24,6 +24,13 @@ TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
 # Artifact path requirement allowlist
 $(call inherit-product, device/google/pantah/artifacts.mk)
 
+# ADB
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.debuggable=1 \
+    persist.service.adb.enable=1
+
 # Build necessary packages for vendor
 
 # Audio
