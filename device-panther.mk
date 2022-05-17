@@ -328,7 +328,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.camera.exif_reveal_make_model=true
 
-##Audio Vendor property
+#Audio Vendor property
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.audio.cca.enabled=false
 
@@ -339,3 +339,7 @@ PRODUCT_COPY_FILES += \
 # Enable adpf cpu hint session for SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.enable_adpf_cpu_hint=true
+
+# HBM
+PRODUCT_PACKAGES += \
+    HbmSVManagerOverlay
