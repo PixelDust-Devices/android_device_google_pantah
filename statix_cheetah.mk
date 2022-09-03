@@ -13,6 +13,9 @@ $(call inherit-product, device/google/pantah/aosp_cheetah.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/powershare/device.mk)
 
+# Parts
+$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := statix_cheetah
 PRODUCT_MODEL := Pixel 7 Pro
