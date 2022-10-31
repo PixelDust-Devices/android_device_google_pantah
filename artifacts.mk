@@ -73,4 +73,7 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/usr/keylayout/Vendor_045e_Product_0719.kl \
     system/etc/init/smartcharge-init.rc \
     system/fonts/RobotoFallback-VF.ttf \
-    system/lib64/android.hardware.nfc-V1-ndk.so
+    system/lib64/android.hardware.nfc-V1-ndk.so \
+    system/app/GmsCompat/GmsCompat.apk \
+    system/app/GmsCompatConfig/GmsCompatConfig.apk \
+    system/etc/sysconfig/whitelist_app.grapheneos.gmscompat.xml
