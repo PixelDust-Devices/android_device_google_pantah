@@ -1,4 +1,4 @@
-DEVICE_PACKAGE_OVERLAYS += device/google/pantah/overlay-calyx
+DEVICE_PACKAGE_OVERLAYS += device/google/pantah/overlay-custom
 
 # EUICC
 PRODUCT_COPY_FILES += \
