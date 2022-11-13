@@ -1,0 +1,74 @@
+[
+    {
+        "target_path":  "device/google/pantah-kernel",
+        "repository":   "android_device_google_pantah-kernel",
+        "remote":       "pdd",
+        "revision":     "13"
+    },
+    {
+        "target_path":  "device/google/gs101",
+        "repository":   "android_device_google_gs101",
+        "remote":       "pdd",
+        "revision":     "13"
+    },
+    {
+        "target_path":  "device/google/gs201",
+        "repository":   "android_device_google_gs201",
+        "remote":       "pdd",
+        "revision":     "13"
+    },
+    {
+        "target_path":  "device/google/gs101-sepolicy",
+        "repository":   "android_device_google_gs101-sepolicy",
+        "remote":       "pdd",
+        "revision":     "13"
+    },
+    {
+        "target_path":  "device/google/gs201-sepolicy",
+        "repository":   "android_device_google_gs201-sepolicy",
+        "remote":       "pdd",
+        "revision":     "13"
+    },
+    {
+        "target_path":  "vendor/gapps",
+        "repository":   "pixeldust-gapps/vendor_gapps",
+        "remote":       "gitlab",
+        "revision":     "13"
+    },
+    {
+        "target_path":  "device/google/gs-common",
+        "repository":   "device/google/gs-common",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-13.0.0_r11"
+    },
+    {
+        "target_path":  "device/google/pantah-sepolicy",
+        "repository":   "device/google/pantah-sepolicy",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-13.0.0_r11"
+    },
+    {
+        "target_path":  "hardware/google/gchips",
+        "repository":   "platform/hardware/google/gchips",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-13.0.0_r11"
+    },
+    {
+        "target_path":  "hardware/google/graphics/common",
+        "repository":   "platform/hardware/google/graphics/common",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-13.0.0_r11"
+    },
+    {
+        "target_path":  "hardware/google/graphics/gs101",
+        "repository":   "platform/hardware/google/graphics/gs101",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-13.0.0_r11"
+    },
+    {
+        "target_path":  "hardware/google/graphics/gs201",
+        "repository":   "platform/hardware/google/graphics/gs201",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-13.0.0_r11"
+    }
+]
