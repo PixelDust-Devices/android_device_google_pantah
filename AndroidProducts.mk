@@ -30,4 +30,5 @@ COMMON_LUNCH_CHOICES := \
     aosp_cloudripper-userdebug \
     aosp_ravenclaw-userdebug \
     aosp_cheetah-userdebug \
-    aosp_panther-userdebug
+    aosp_panther-userdebug \
+    statix_cheetah-userdebug
