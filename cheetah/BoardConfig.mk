@@ -21,6 +21,7 @@ USES_DEVICE_GOOGLE_CLOUDRIPPER := true
 BOARD_KERNEL_CMDLINE += swiotlb=noforce
 
 include device/google/gs201/BoardConfig-common.mk
+include device/google/pantah/BoardConfigSpark.mk
 -include vendor/google_devices/gs201/prebuilts/BoardConfigVendor.mk
 -include vendor/google_devices/cheetah/proprietary/BoardConfigVendor.mk
 include device/google/pantah-sepolicy/cheetah-sepolicy.mk
