@@ -2,19 +2,19 @@
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common StatiX stuff.
-$(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/statix/config/gsm.mk)
+# Inherit some common SparkOS stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp_panther.mk)
+$(call inherit-product, device/google/pantah/device-spark.mk)
 
 # Parts
 $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/powershare/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := statix_panther
+PRODUCT_NAME := spark_panther
 PRODUCT_MODEL := Pixel 7
 PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Google
