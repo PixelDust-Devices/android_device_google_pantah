@@ -13,10 +13,6 @@ $(call inherit-product, device/google/pantah/device-spark.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/powershare/device.mk)
 
-# Extra packages
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.gs101
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := spark_cheetah
 PRODUCT_MODEL := Pixel 7 Pro
