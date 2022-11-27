@@ -15,6 +15,6 @@
 
     <overlay
         android:isStatic="true"
-        android:priority="600"
+        android:priority="999"
         android:targetPackage="lineageos.platform" />	
 </manifest>
