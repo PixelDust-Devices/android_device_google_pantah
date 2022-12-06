@@ -36,3 +36,5 @@ TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 PIXEL_DEVICE := true
+
+TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
