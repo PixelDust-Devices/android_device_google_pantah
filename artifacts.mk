@@ -81,4 +81,18 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/lib64/android.hardware.nfc-V1-ndk.so \
     system/app/GmsCompat/GmsCompat.apk \
     system/app/GmsCompatConfig/GmsCompatConfig.apk \
-    system/etc/sysconfig/whitelist_app.grapheneos.gmscompat.xml
+    system/etc/sysconfig/whitelist_app.grapheneos.gmscompat.xml \
+    system/addon.d/50-base.sh \
+    system/bin/backuptool.functions \
+    system/bin/backuptool.sh \
+    system/etc/sysconfig/preinstalled-packages-platform-full-base.xml \
+    system/etc/textclassifier/actions_suggestions.universal.model \
+    system/etc/textclassifier/lang_id.model \
+    system/etc/textclassifier/textclassifier.en.model \
+    system/etc/textclassifier/textclassifier.universal.model \
+    system/fonts/Arvo-Bold.ttf \
+    system/fonts/Arvo-BoldItalic.ttf \
+    system/fonts/Arvo-Italic.ttf \
+    system/fonts/Arvo-Regular.ttf \
+    system/media/bootanimation.zip \
+    system/priv-app/PixelDustWallpapers/PixelDustWallpapers.apk
