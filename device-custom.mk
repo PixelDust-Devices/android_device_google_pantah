@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
 
+# Artifact path requirement allowlist
+$(call inherit-product, device/google/pantah/artifacts.mk)
+
 # Build necessary packages for vendor
 
 # Audio
