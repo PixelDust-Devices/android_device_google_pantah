@@ -39,3 +39,4 @@ include device/google/pantah-sepolicy/panther-sepolicy.mk
 include device/google/pantah/wifi/BoardConfig-wifi.mk
 
 include vendor/google/panther/BoardConfigVendor.mk
+include device/google/pantah/panther/BoardConfig-custom.mk
